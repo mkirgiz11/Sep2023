@@ -1,0 +1,45 @@
+ 1 kid is 20 years
+ 1 kid is 11 years
+ 1 kid is 9 years
+ 1 kid is 15 years
+
+
+ if kid is older than 12
+ he is allowed in
+
+ if kid is younger than 12
+
+
+ 1. You have to understand the task
+ 2. You have to plan the kind of program you want to write
+    -Take an input from the user
+    -print the input in formatted way
+3. Try to combine everything together in a codified way.
+
+Task: Group people by age and print accordingly, make it reusable.
+
+0-12: Hello future programmer
+12-30: Hello junior programmer
+30-65: Hello senior programmer
+
+1. Group by age and print what each group is asking using reusable format.
+2. a. if age is less than 12:
+        print: Hello future programmer
+    b. if age is bigger than and  less than 30:
+        print: Hello junior programmer
+    c. if age is bigger than 30 and less than 65
+        print: Hello senior programmer
+3.  Try to use syntax to code this.
+
+if age < 12:
+    print("Hello, future programmer")
+fi
+if age > 12 and age < 30:
+    print("Hello, junior programmer")
+fi
+if age > 30 and age < 65:
+    print("Hello, Senior programmer")
+fi
+if age > 65
+    print: ("Hello, ancient programmer")
+fi
