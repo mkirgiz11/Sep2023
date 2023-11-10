@@ -7,9 +7,7 @@
 
 # filepath=$1
 
-# for existing_web in $(ls /var/www/html); do
-#     existing_name=$(echo $existing_web | awk -F "." '{ print $1 }')
-
+## FOR NEW WEBSITES
 # for web in $(cat websites.txt); do
 #     name=$(echo $web | awk -F "/" '{ print $9 }' | awk -F "." '{ print $1 }')
 #     wget $web -P /tmp/
@@ -19,7 +17,7 @@
 #     mv /var/www/html/*$name*/* /var/www/html/$name/
 # done
 
-
+## FOR ADDING WEBSITES
 for web in $(cat websites.txt); do
     name=$(echo $web | awk -F "/" '{ print $9 }' | awk -F "." '{ print $1 }')
 
