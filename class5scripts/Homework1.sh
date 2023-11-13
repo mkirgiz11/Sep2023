@@ -4,6 +4,7 @@ droplets=$(curl -s -H "Authorization: Bearer $DO_TOKEN" \
 "https://api.digitalocean.com/v2/droplets" | jq -r '.droplets[].id')
 #API CALL to Digital ocean
 
+
 #for loop To get droplet id's
 for DROPLET_ID in $droplets; do
     response=$(curl -s -X GET \
